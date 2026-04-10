@@ -1,0 +1,18 @@
+# Compilados
+*.ex5
+
+# Datos generados
+*.log
+*.dat
+
+# Carpetas
+Logs/
+Profiles/
+
+# Cache
+*.tmp
+*.cache
+
+# Windows
+Thumbs.db
+desktop.ini
