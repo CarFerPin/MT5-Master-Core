@@ -1,0 +1,38 @@
+{
+  "terminal": {
+    "id": "test_01",
+    "broker": "ICMarketsSC-Demo",
+    "login": 12345678,
+    "env": "demo"
+  },
+  "heartbeat": {
+    "last_seen": "2026-04-13T19:06:14Z",
+    "ea_version": "TradeAssistantMASTERCONTROL",
+    "status": "online"
+  },
+  "symbol_config": {
+    "symbol": "XAUUSD",
+    "enabled": true,
+    "mode": "trend",
+    "risk": {
+      "base_volume": 0.1,
+      "counter_multiplier": 0.5
+    }
+  },
+  "execution": {
+    "position_open": false,
+    "pending_orders": 0,
+    "last_action_id": "",
+    "last_action_type": "",
+    "last_action_status": "idle",
+    "last_error": ""
+  },
+  "risk": {
+    "risk_blocked": false,
+    "daily_loss_pct": 0.0,
+    "drawdown_pct": 0.0
+  },
+  "schedule": {
+    "blocked": false
+  }
+}

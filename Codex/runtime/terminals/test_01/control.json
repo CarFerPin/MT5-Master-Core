@@ -1,0 +1,34 @@
+{
+  "terminal_id": "test_01",
+  "global_switch": {
+    "enabled": true
+  },
+  "symbols": {
+    "XAUUSD": {
+      "enabled": true,
+      "mode": "trend",
+      "risk": {
+        "base_volume": 0.1,
+        "counter_multiplier": 0.5
+      }
+    },
+    "EURUSD": {
+      "enabled": false,
+      "mode": "counter",
+      "risk": {
+        "base_volume": 0.2,
+        "counter_multiplier": 0.75
+      }
+    }
+  },
+  "action": {
+    "id": "act_20260414_093942_9a29be25",
+    "symbol": "XAUUSD",
+    "type": "sell",
+    "timestamp": "2026-04-14T09:39:42Z",
+    "consumed": false
+  },
+  "execution": {
+    "max_random_delay_sec": 2
+  }
+}

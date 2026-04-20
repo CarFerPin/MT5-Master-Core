@@ -1,0 +1,36 @@
+{
+  "sunday": {
+    "enabled": false,
+    "blocks": []
+  },
+  "monday": {
+    "enabled": true,
+    "blocks": [
+      { "start": "07:05", "end": "07:09" },
+    ]
+  },
+  "tuesday": {
+    "enabled": true,
+    "blocks": [
+      { "start": "07:25", "end": "07:45" },
+    ]
+  },
+  "wednesday": {
+    "enabled": true,
+    "blocks": []
+  },
+  "thursday": {
+    "enabled": false,
+    "blocks": [
+      { "start": "07:25", "end": "07:35" }
+    ]
+  },
+  "friday": {
+    "enabled": true,
+    "blocks": []
+  },
+  "saturday": {
+    "enabled": false,
+    "blocks": []
+  }
+}

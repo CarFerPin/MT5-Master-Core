@@ -1,0 +1,39 @@
+{
+  "global_switch": {
+    "enabled": true
+  },
+  "symbols": {
+    "US500": {
+      "enabled": true,
+      "mode": "trend",
+      "risk": {
+        "base_volume": 1.0,
+        "counter_multiplier": 0.5
+      }
+    },
+    "XAUUSD": {
+      "enabled": true,
+      "mode": "counter",
+      "risk": {
+        "base_volume": 2.0,
+        "counter_multiplier": 0.5
+      }
+    },
+    "EURUSD": {
+      "enabled": true,
+      "mode": "trend",
+      "risk": {
+        "base_volume": 3.0,
+        "counter_multiplier": 0.5
+      }
+    },
+    "BTCUSD": {
+      "enabled": true,
+      "mode": "counter",
+      "risk": {
+        "base_volume": 1.0,
+        "counter_multiplier": 0.5
+      }
+    }
+  }
+}
